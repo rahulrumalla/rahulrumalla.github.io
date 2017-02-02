@@ -98,7 +98,7 @@ header .intro-text a {
 @media (min-width: 768px) {
   header .container {
     padding-top: 120px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
   header .intro-text .name {
     font-size: 4.75em;
@@ -192,6 +192,14 @@ section h2 {
 section.success {
   background: #18BC9C;
   color: white;
+}
+section.primary {
+  background: #2C3E50;
+  color: #F5F5F5;
+}
+section.primary-inverse {
+  background: #F5F5F5;
+  color: #2C3E50;
 }
 @media (max-width: 767px) {
   section {
